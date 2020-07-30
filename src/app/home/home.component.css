@@ -1,0 +1,46 @@
+.tac{
+    text-align: center;
+}
+
+input{
+    width: 100px;
+    height: 100px;
+    font-size: 70px;
+}
+
+span{
+    font-size: 70px;
+    position: relative;
+    top: 50%;
+}
+
+.omairPosition{
+    position: relative;
+    top: 100px
+}
+
+button {
+    background-color: #f9E076; /* Green */
+    border: none;
+    color: black;
+    padding: 7px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+  button:active{
+    background:gray;
+    color: whitesmoke;
+}
+button:hover{
+    background:gray;
+    color: whitesmoke;
+}
+
+
+.err{
+    color: red;
+    font-size: large;
+}

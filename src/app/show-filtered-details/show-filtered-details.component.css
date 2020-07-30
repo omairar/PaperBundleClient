@@ -1,0 +1,39 @@
+table{
+    font-size: larger;
+}
+.e1{ 
+    border-right: 2px solid red;
+    text-align: left;
+
+}
+
+.e2{ 
+    
+    text-align: left;
+
+}
+
+.bac{
+    text-align: center;
+}
+
+button {
+    background-color: #f9E076; /* Green */
+    border: none;
+    color: black;
+    padding: 7px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+  button:active{
+    background:gray;
+    color: whitesmoke;
+}
+
+button:hover{
+    background:gray;
+    color: whitesmoke;
+}

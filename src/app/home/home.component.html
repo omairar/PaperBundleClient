@@ -1,0 +1,18 @@
+<div class="container omairPosition">
+    <div class="row">
+      <div class="col-md-12 col-sm-12 tac">
+        <input type="text" [(ngModel)]="width"> <span>X</span><input type="text" [(ngModel)]="height"> 
+      </div>
+  
+      <div class="col-md-12 col-sm-12 tac">&nbsp;</div>
+      <div class="col-md-12 col-sm-12 tac err">{{ipCheck}}</div>
+      <div class="col-md-12 col-sm-12 tac">&nbsp;</div>
+      <div class="col-md-12 col-sm-12 tac">
+        <button class="btn" (click)="searchSize()"> Search </button>
+      </div>
+      <div class="col-md-12 col-sm-12 tac">&nbsp;</div>
+      <div class="col-md-12 col-sm-12 tac">
+        <button class="btn" routerLink="/allResults"> View All</button>
+      </div>
+    </div>
+  </div>

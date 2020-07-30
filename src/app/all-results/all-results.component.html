@@ -1,0 +1,35 @@
+<div class="container tac">
+    <div class="row">
+      <div class="col-md-12 col-sm-12 ">
+        <h2>Fectched Results</h2>
+      </div>
+    </div>
+  </div>
+<br>
+  <table style="width:100%" >
+    <tr (click)="gotoescription(ite)" *ngFor="let ite of itemss">
+        <td style="width:40%" class="e1">
+            &nbsp;{{ite.payload.doc.data().size}}
+        </td>
+        <td style="width:40%" class="e2">
+            {{ite.payload.doc.data().quality}}
+        </td>
+        <td style="width:40%" class="e3">
+          {{ite.payload.doc.data().wght}}
+        </td>
+    </tr>
+    
+</table>
+<br>
+ 
+<div class="container">
+    <div class="row">
+      <div class="col-md-12 col-sm-12 tabtn">
+        <button class="btn" routerLink="/"> Go back </button>
+      </div>
+      <div class="col-md-12 col-sm-12" >
+        <br><br>
+      </div>
+      
+    </div>
+  </div>

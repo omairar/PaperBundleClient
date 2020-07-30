@@ -1,0 +1,52 @@
+.e1{
+    font-size: 30px;
+    text-align: left;
+    
+}
+
+.e2{
+    text-align: left;
+    
+}
+
+.e3{
+    text-align: left;
+    
+}
+
+tr{
+    border-bottom: 1px solid black;
+}
+
+.tac{
+    text-align: center;
+    background-color: #F9E076;
+    color: #000000;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.tabtn{
+    text-align: center;
+    
+}
+
+button {
+    background-color: #f9E076; /* Green */
+    border: none;
+    color: black;
+    padding: 7px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+  button:active{
+    background:gray;
+    color: whitesmoke;
+}
+button:hover{
+    background:gray;
+    color: whitesmoke;
+}
